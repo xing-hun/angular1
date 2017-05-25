@@ -1,0 +1,1023 @@
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		
+
+
+<script type="text/javascript" src="/static/js/common/pageload.js"></script>
+<meta name="shenma-site-verification" content="b7ed5dec18de366fe715545908c219d9_1456975136">
+<meta property="wb:webmaster" content="f22e6d1ecbe50469" />
+<meta property="qc:admins" content="140625776463577636" />
+<meta name="baidu_ssp_verify" content="84e6ea1523f69041df93583b5c4a2412">
+<meta name="google-site-verification" content="__rggxL8_R8LDb2_41gfmNLoGOIXdGRZTsQaShcrDIM" />
+<meta name="baidu-site-verification" content="0fOPK9x4PV" />
+<link href="http://image.kuwo.cn/website/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+		<meta name="apple-touch-fullscreen" content="YES" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="format-detection" content="telephone=no"/>
+		<title>酷我音乐_音乐分类</title>
+		<link rel="stylesheet" href="/static/h5/css/comm/base.css" />
+		<link rel="stylesheet" href="/static/h5/css/category/classify.css" />
+		<link href="http://image.kuwo.cn/website/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+	</head>
+	<body>
+		
+
+
+<!-- 网站头部通用html -->
+<header class="clearfix header">
+    <div class="search fl">
+        <a href="http://m.kuwo.cn/?key=gohotword&bdfrom=newh5"><span class="searchbtn"></span></a>
+    </div>
+    <div class="logo fl">
+        <a onclick="downapk('category');">
+            <span class="logopic"></span>
+        </a>
+    </div>
+    <div class="download fr">
+        <a class="downapp" onclick="downapk('category');">
+            下载APP
+        </a>
+    </div>
+</header>
+<nav class="nav clearfix" id="nav">
+    <span class="navitem " onclick="jumpPage('/newh5/index/index');">推荐</span>
+    <span class="navitem " onclick="jumpPage('/newh5/bang/index');">排行</span>
+    <span class="navitem on" onclick="jumpPage('/newh5/category/index');">分类</span>
+    <span class="navitem " onclick="jumpPage('/newh5/artist/artistCategory');">歌手</span>
+    <span class="navitem " onclick="jumpPage('/newh5/mv/index');">MV</span>
+</nav>
+<input type="hidden" id="SYS_MAIN_HOST" value="http://m.kuwo.cn">
+<input type="hidden" id="SYS_PAGE_STAT" value="200"/>
+<input type="hidden" id="SYS_FP" value="">
+<input type="hidden" id="SYS_NP" value="%2Fnewh5%2Fcategory%2Findex">
+		
+		<div class="classify">
+			
+			
+				<ul class="classifybang clearfix">
+				
+					<li class="classify_li0">
+						<a class="classify_li0_pic" style="background:url() no-repeat center center;background-size:32%;"></a>
+					</li>
+					
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=31">古典</a>
+							</li>
+						
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=12">古风</a>
+							</li>
+						
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=9">佛乐</a>
+							</li>
+						
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=13">轻音乐</a>
+							</li>
+						
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=1">DJ</a>
+							</li>
+						
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=69">EDM</a>
+							</li>
+						
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=3">儿歌</a>
+							</li>
+						
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=6">二次元</a>
+							</li>
+						
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=87">直播歌手</a>
+							</li>
+						
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=15">运动</a>
+							</li>
+						
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=36">3D环绕</a>
+							</li>
+						
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=32">车载音乐</a>
+							</li>
+						
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=2">影视综艺</a>
+							</li>
+						
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=58">MC</a>
+							</li>
+						
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=89">段子</a>
+							</li>
+						
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=30">独立音乐-移动端</a>
+							</li>
+						
+						
+						
+					
+					
+				</ul>
+			
+			
+				<ul class="classifybang clearfix">
+				
+					<li class="classify_li1">
+						<a class="classify_li1_pic" style="background:url(http://image.kuwo.cn/mpage/html5/2016/classify_hot.png) no-repeat center center;background-size:32%;"></a>
+					</li>
+					
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=280021">运动</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88078">网络</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88080">铃声</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88081">经典</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88091">影视</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88090">动漫</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88089">中国风</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88085">轻音乐</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88088">小清新</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88084">90后</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88083">80后</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88082">70后</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88087">儿歌</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88086">胎教</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88079">DJ</a>
+							</li>
+						
+						
+					
+					
+				</ul>
+			
+			
+				<ul class="classifybang clearfix">
+				
+					<li class="classify_li2">
+						<a class="classify_li2_pic" style="background:url(http://image.kuwo.cn/mpage/html5/2016/classify_feel.png) no-repeat center center;background-size:32%;"></a>
+					</li>
+					
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=140">伤感</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=141">温暖</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=142">郁闷</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=240414">思念</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=143">开心</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=240413">治愈</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=144">疲惫</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=145">寂寞</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=146">安静</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88116">怀旧</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88114">甜蜜</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88115">兴奋</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88113">励志</a>
+							</li>
+						
+					
+					
+				</ul>
+			
+			
+				<ul class="classifybang clearfix">
+				
+					<li class="classify_li3">
+						<a class="classify_li3_pic" style="background:url(http://image.kuwo.cn/mpage/html5/2016/classify_li5_pic.png) no-repeat center center;background-size:32%;"></a>
+					</li>
+					
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=278606">散步</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88137">夜店</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88136">咖啡厅</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88135">聚会</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88134">开车</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88133">工作</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88132">旅行</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88129">亲热</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88128">跳舞</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88127">清晨</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88126">睡前</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88125">做家务</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88122">婚礼</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88123">毕业</a>
+							</li>
+						
+						
+					
+					
+				</ul>
+			
+			
+				<ul class="classifybang clearfix">
+				
+					<li class="classify_li4">
+						<a class="classify_li4_pic" style="background:url(http://image.kuwo.cn/mpage/html5/2016/classify_li2_pic.png) no-repeat center center;background-size:32%;"></a>
+					</li>
+					
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=415015">歌手2017</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=414802">厉害了，我的歌！</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=356194">围炉音乐会</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=351949">梦想的声音</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=344380">中国新歌声</a>
+							</li>
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=33">我想和你唱</a>
+							</li>
+						
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88138">我是歌手</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=244662">燃烧吧少年</a>
+							</li>
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=16">明星访谈</a>
+							</li>
+						
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=17">独家首发</a>
+							</li>
+						
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=26">央视音乐</a>
+							</li>
+						
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88108">校园</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88107">对唱</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88103">卡拉OK</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88104">军旅</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88130">广场舞</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88105">佛教</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=240401">蒙面歌王</a>
+							</li>
+						
+						
+					
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88110">广告歌曲</a>
+							</li>
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=48">数字专辑</a>
+							</li>
+						
+						
+						
+					
+					
+				</ul>
+			
+			
+				<ul class="classifybang clearfix">
+				
+					<li class="classify_li5">
+						<a class="classify_li5_pic" style="background:url(http://image.kuwo.cn/mpage/html5/2016/classify_li3_pic.png) no-repeat center center;background-size:32%;"></a>
+					</li>
+					
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=200">华语</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=201">欧美</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=202">韩国</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=203">日本</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=204">粤语</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=206">小语种</a>
+							</li>
+						
+					
+					
+				</ul>
+			
+			
+				<ul class="classifybang clearfix">
+				
+					<li class="classify_li6">
+						<a class="classify_li6_pic" style="background:url(http://image.kuwo.cn/mpage/html5/2016/classify_li4_pic.png) no-repeat center center;background-size:32%;"></a>
+					</li>
+					
+					
+						
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=10">有声专区</a>
+							</li>
+						
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=22">相声小品</a>
+							</li>
+						
+						
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88100">有声小说</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88099">评书</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88097">戏剧</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88096">民歌</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88095">民乐</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88094">器乐</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=88093">人群</a>
+							</li>
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=18">小说</a>
+							</li>
+						
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=20">评书</a>
+							</li>
+						
+						
+						
+					
+						
+							<li>
+								<a href="http://mobile.kuwo.cn/mpage/fspage/zhuanqu/index.html?mainid=23">戏曲</a>
+							</li>
+						
+						
+						
+					
+					
+				</ul>
+			
+			
+				<ul class="classifybang clearfix">
+				
+					<li class="classify_li7">
+						<a class="classify_li7_pic" style="background:url(http://image.kuwo.cn/mpage/html5/2016/classify_li6_pic.png) no-repeat center center;background-size:32%;"></a>
+					</li>
+					
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=166">R&B</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=167">流行</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=168">摇滚</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=169">嘻哈</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=170">爵士</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=171">电子</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=172">乡村</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=173">民谣</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=174">古典</a>
+							</li>
+						
+					
+						
+						
+						
+							<li>
+								<a href="/newh5/category/cate?id=175">世界</a>
+							</li>
+						
+					
+					
+				</ul>
+			
+		</div>
+		
+		<script type="text/javascript" src="/static/h5/js/comm/common.js" ></script>
+		<script type="text/javascript">
+			
+		</script>
+		
+<!-- 网站底部通用html -->
+<script>
+//    var _hmt = _hmt || [];
+//    (function() {
+//        var hm = document.createElement("script");
+//        hm.src = "//hm.baidu.com/hm.js?47fa0c42177f08ce640a93f4489e9319";
+//        var s = document.getElementsByTagName("script")[0];
+//        s.parentNode.insertBefore(hm, s);
+//    })();
+
+	var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+	document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcdb524f42f0ce19b169a8071123a4797' type='text/javascript'%3E%3C/script%3E"));
+</script>
+	</body>
+</html>

@@ -1,0 +1,486 @@
+@charset "UTF-8";
+html {
+  background-color: #ebebeb;
+  font-size: 100px;
+  height: 100%;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "微软雅黑", arial, sans-serif;
+}
+
+body,
+div,
+header,
+footer,
+button,
+img,
+dd,
+dl,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+input,
+ol,
+p,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h5,
+h6,
+b,
+strong {
+  font-weight: normal;
+}
+
+input {
+  border: none;
+  outline: 0;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+  text-align: left;
+}
+
+ol,
+ul, li {
+  list-style: none;
+}
+
+img {
+  border: 0;
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.clearfloat:after {
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  content: '.';
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.header {
+  height: 0.72rem;
+}
+.header .header_top {
+  background: #1da0ef;
+  height: 0.37rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .header_top .search {
+  height: 100%;
+  width: 0.38rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .header_top .search .searchbtn {
+  display: block;
+  color: #fff;
+  font-size: 0.24rem;
+}
+.header .header_top .logo {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .header_top .logo .logopic {
+  width: 1rem;
+  height: 0.3rem;
+  display: block;
+  background: url("../imgs/logo.png") no-repeat;
+  background-size: cover;
+}
+.header .header_top .download {
+  display: flex;
+  margin-right: 0.1rem;
+}
+.header .header_top .download .downapp {
+  width: 0.68rem;
+  border-radius: 0.4rem;
+  text-align: center;
+  color: #fff;
+  font-size: .12rem;
+  background: #1470a7;
+  padding: 0.03rem 0;
+}
+.header .header_nav {
+  position: fixed;
+  top: 0.37rem;
+  left: 0;
+  width: 100%;
+  height: 0.33rem;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+  z-index: 10;
+}
+.header .header_nav .navitem {
+  float: left;
+  width: 20%;
+  font-size: 0.14rem;
+  text-align: center;
+  line-height: 0.33rem;
+  color: #333;
+  border-bottom: 2px solid transparent;
+}
+.header .header_nav .navitem.on {
+  color: #2095dd;
+  border-bottom: 2px solid #2095dd;
+}
+
+.main {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.main .banner .swiper-container {
+  width: 100%;
+  height: 1.33rem;
+}
+.main .banner .swiper-container-horizontal {
+  position: relative;
+}
+.main .banner .swiper-container-horizontal .swiper-pagination {
+  position: absolute;
+  height: 0.2rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.main .banner .swiper-container-horizontal .swiper-pagination .swiper-pagination-bullet {
+  position: relative;
+  top: -0.95rem;
+}
+.main .main_1 {
+  margin-top: 0.1rem;
+}
+.main .main_1 .newsong {
+  background: #fff;
+  padding: 0 0.1rem;
+  color: #333;
+}
+.main .main_1 .newsong h3 {
+  font-size: 0.14rem;
+  height: 0.38rem;
+  line-height: 0.38rem;
+  font-weight: bold;
+}
+.main .main_1 .newsong .songtuijian .songmsg {
+  display: block;
+  position: relative;
+}
+.main .main_1 .newsong .songtuijian .songmsg .newtip {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0.2rem;
+  height: 0.2rem;
+  background: url(../imgs/newtip.png) no-repeat;
+  background-size: cover;
+}
+.main .main_1 .newsong .songtuijian .songmsg .songmsgpic {
+  height: 1.28rem;
+}
+.main .main_1 .newsong .songtuijian .songmsg .other {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0.22rem;
+  font-size: 0.1rem;
+}
+.main .main_1 .newsong .songtuijian .songmsg .other .listen {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  line-height: 0.22rem;
+  background: url(../imgs/earphone.png) left center no-repeat;
+  background-size: 10%;
+  margin-left: 0.1rem;
+}
+.main .main_1 .newsong .songtuijian .songmsg .other .listen .listennum {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #fff;
+  transform: translate(0.12rem, 0);
+}
+.main .main_1 .newsong .songtuijian .songmsg .other .playbtn {
+  width: 0.2rem;
+  height: 0.2rem;
+  background: url(../imgs/playbtn1.png) no-repeat;
+  background-size: 100%;
+  margin-right: 0.05rem;
+}
+.main .main_1 .newsong .songtuijian p {
+  font-size: 0.12rem;
+  text-align: center;
+  height: 0.25rem;
+  line-height: 0.25rem;
+}
+.main .main_1 .gedan, .main .main_1 .program, .main .main_1 .mmhost {
+  margin-top: 0.1rem;
+  background: #fff;
+  padding: 0 0.1rem;
+  color: #333;
+}
+.main .main_1 .gedan h3, .main .main_1 .program h3, .main .main_1 .mmhost h3 {
+  font-size: 0.14rem;
+  height: 0.38rem;
+  line-height: 0.38rem;
+  font-weight: bold;
+}
+.main .main_1 .gedan .swiper-container, .main .main_1 .program .swiper-container, .main .main_1 .mmhost .swiper-container {
+  height: 1.33rem;
+}
+.main .main_1 .gedan .swiper-container .swiper-slide a, .main .main_1 .program .swiper-container .swiper-slide a, .main .main_1 .mmhost .swiper-container .swiper-slide a {
+  display: block;
+}
+.main .main_1 .gedan .swiper-container .swiper-slide a img, .main .main_1 .program .swiper-container .swiper-slide a img, .main .main_1 .mmhost .swiper-container .swiper-slide a img {
+  display: block;
+  width: 0.96rem;
+  height: 0.96rem;
+}
+.main .main_1 .gedan .swiper-container .swiper-slide a p, .main .main_1 .program .swiper-container .swiper-slide a p, .main .main_1 .mmhost .swiper-container .swiper-slide a p {
+  display: block;
+  width: 100%;
+  color: #333;
+  text-align: left;
+  font-size: 0.1rem;
+  line-height: 0.12rem;
+  padding-top: 0.02rem;
+}
+
+.footerarea {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  left: 0;
+  bottom: -40px;
+  background: #e8e8e8;
+  z-index: 200;
+}
+.footerarea .footer .logo2 {
+  width: 0.8rem;
+  height: 0.3rem;
+  margin: 0.06rem 0 0 0.1rem;
+  background: url(../imgs/logo2.png) no-repeat;
+  background-size: 100%;
+}
+.footerarea .footer .download2 {
+  width: 0.68rem;
+  height: 0.26rem;
+  margin: 0.06rem 0.1rem 0 0;
+  border-radius: 0.3rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.12rem;
+  line-height: 0.26rem;
+  background: #1da0ef;
+}
+
+.chartbang {
+  margin-top: 0.1rem;
+  margin-right: 0.1rem;
+  overflow: hidden;
+}
+.chartbang .chart_li {
+  margin-bottom: 0.1rem;
+  padding-left: 0.1rem;
+  padding-bottom: 0.05rem;
+  background: #fff;
+}
+.chartbang .chart_li .chart_pic {
+  float: left;
+  width: 1.06rem;
+  height: 1.06rem;
+}
+.chartbang .chart_li .chart_con {
+  float: left;
+  width: 1.58rem;
+  margin-left: 0.1rem;
+}
+.chartbang .chart_li .chart_con h3 {
+  margin: 0.14rem 0 0.09rem 0;
+  font-size: 0.15rem;
+  color: #333;
+}
+.chartbang .chart_li .chart_con p {
+  width: 100%;
+  font-size: 0.14rem;
+  margin-bottom: 0.03rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.chartbang .chart_li .chart_con p .chart_num {
+  margin-right: 0.1rem;
+  color: #999;
+}
+.chartbang .chart_li .chart_con p .chart_artname {
+  color: #999;
+}
+.chartbang .chart_li .chart_toright {
+  float: right;
+  width: 0.15rem;
+  height: 1.06rem;
+  background: url(../imgs/arrow_r.png) no-repeat center center;
+  background-size: 40%;
+  margin-right: 0.1rem;
+}
+
+.classify {
+  margin: 0.1rem;
+  overflow: hidden;
+}
+.classify .classifybang {
+  margin-bottom: 0.1rem;
+  background: #fff;
+}
+.classify .classifybang li {
+  float: left;
+  width: 25%;
+  border-right: 0.01rem solid #f2f2f2;
+  border-bottom: 0.01rem solid #f2f2f2;
+  box-sizing: border-box;
+}
+.classify .classifybang li a {
+  display: block;
+  width: 100%;
+  height: 0.35rem;
+  text-align: center;
+  line-height: 0.35rem;
+  font-size: 0.14rem;
+  color: #666;
+  overflow: hidden;
+}
+.classify .classifybang li:first-child {
+  height: 0.71rem;
+}
+.classify .classifybang li:first-child a {
+  height: 0.71rem;
+}
+
+.artistbang {
+  width: 100%;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+.artistbang .artist_banglist {
+  margin-top: 0.1rem solid #f2f2f2;
+}
+.artistbang .artist_banglist li {
+  border-bottom: 1px solid #e5e5e5;
+  color: #333;
+  padding-left: 0.1rem;
+  background: #fff;
+}
+.artistbang .artist_banglist li .artist_fenlei {
+  height: 0.45rem;
+  line-height: 0.45rem;
+  font-size: 0.14rem;
+}
+.artistbang .artist_banglist .boldbottom {
+  margin-bottom: 0.1rem;
+  padding-left: 0.1rem;
+  margin-left: 0;
+}
+.artistbang .artist_banglist .artist_toright {
+  width: 0.2rem;
+  height: 0.45rem;
+  background: url(../imgs/arrow_r.png) no-repeat center center;
+  background-size: 40%;
+  margin-right: 0.1rem;
+}
+
+.mvbang_1 {
+  overflow: hidden;
+  background: #fff;
+}
+.mvbang_1 .mvbang {
+  margin-top: 0.05rem;
+}
+.mvbang_1 .mvbang li {
+  font-size: 0.14rem;
+  color: #333;
+  display: flex;
+}
+.mvbang_1 .mvbang li .mvbang_pic {
+  width: 0.51rem;
+  height: 0.51rem;
+  border-bottom: 1px solid transparent;
+  padding: 0.05rem 0.1rem;
+}
+.mvbang_1 .mvbang li .mvbang_txt {
+  flex: 1;
+  display: flex;
+  min-width: 2.4rem;
+  height: 0.6rem;
+  border-bottom: 1px solid #e5e5e5;
+  line-height: 0.6rem;
+  justify-content: space-between;
+}
+.mvbang_1 .mvbang li .mvbang_txt .mv_toright {
+  margin-right: 0.1rem;
+  width: 0.2rem;
+  height: 0.6rem;
+  background: url(../imgs/arrow_r.png) no-repeat center center;
+  background-size: 40%;
+}
+
+/*# sourceMappingURL=index.css.map */
+
+/*# sourceMappingURL=index.css.map */

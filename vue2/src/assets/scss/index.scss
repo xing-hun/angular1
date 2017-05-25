@@ -1,0 +1,394 @@
+@charset "UTF-8";
+@import "./common";
+.header {
+    height: 0.72rem;
+    .header_top {
+        background: #1da0ef;
+        height: 0.37rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .search {
+            height: 100%;
+            width: 0.38rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .searchbtn {
+                display: block;
+                color: #fff;
+                font-size: 0.24rem;
+            }
+        }
+        .logo {
+            flex: 1;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .logopic {
+                width: 1rem;
+                height: 0.3rem;
+                display: block;
+                background: url('../imgs/logo.png') no-repeat;
+                background-size: cover;
+            }
+        }
+        .download {
+            display: flex;
+            margin-right: 0.1rem;
+            .downapp {
+                width: 0.68rem;
+                border-radius: 0.4rem;
+                text-align: center;
+                color: #fff;
+                font-size: .12rem;
+                background: #1470a7;
+                padding: 0.03rem 0;
+            }
+        }
+    }
+    .header_nav {
+        position: fixed;
+        top: 0.37rem;
+        left: 0;
+        width: 100%;
+        height: 0.33rem;
+        border-bottom: 1px solid #ddd;
+        background: #fff;
+        z-index: 10;
+        .navitem {
+            float: left;
+            width: 20%;
+            font-size: 0.14rem;
+            text-align: center;
+            line-height: 0.33rem;
+            color: #333;
+            border-bottom: 2px solid transparent;
+            &.on {
+                color: #2095dd;
+                border-bottom: 2px solid #2095dd;
+            }
+        }
+    }
+}
+
+.main {
+    width: 100%;
+    margin-bottom: 40px;
+    .banner {
+        .swiper-container {
+            width: 100%;
+            height: 1.33rem;
+        }
+        .swiper-container-horizontal {
+            position: relative;
+            .swiper-pagination {
+                position: absolute;
+                height: 0.2rem;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                .swiper-pagination-bullet {
+                    position: relative;
+                    top: -0.95rem;
+                }
+            }
+        }
+    }
+    .main_1 {
+        margin-top: 0.1rem;
+        .newsong {
+            background: #fff;
+            padding: 0 0.1rem;
+            color: #333;
+            h3 {
+                font-size: 0.14rem;
+                height: 0.38rem;
+                line-height: 0.38rem;
+                font-weight: bold;
+            }
+            .songtuijian {
+                .songmsg {
+                    display: block;
+                    position: relative;
+                    .newtip {
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        width: 0.2rem;
+                        height: 0.2rem;
+                        background: url(../imgs/newtip.png) no-repeat;
+                        background-size: cover;
+                    }
+                    .songmsgpic {
+                        height: 1.28rem;
+                    }
+                    .other {
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 100%;
+                        height: 0.22rem;
+                        font-size: 0.1rem;
+                        .listen {
+                            position: relative;
+                            width: 30%;
+                            height: 100%;
+                            line-height: 0.22rem;
+                            background: url(../imgs/earphone.png) left center no-repeat;
+                            background-size: 10%;
+                            margin-left: 0.1rem;
+                            .listennum {
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                                color: #fff;
+                                transform: translate(0.12rem, 0);
+                            }
+                        }
+                        .playbtn {
+                            width: 0.2rem;
+                            height: 0.2rem;
+                            background: url(../imgs/playbtn1.png) no-repeat;
+                            background-size: 100%;
+                            margin-right: 0.05rem;
+                        }
+                    }
+                }
+                p {
+                    font-size: 0.12rem;
+                    text-align: center;
+                    height: 0.25rem;
+                    line-height: 0.25rem;
+                }
+            }
+        }
+        .gedan {
+            margin-top: 0.1rem;
+            background: #fff;
+            padding: 0 0.1rem;
+            color: #333;
+            h3 {
+                font-size: 0.14rem;
+                height: 0.38rem;
+                line-height: 0.38rem;
+                font-weight: bold;
+            }
+            .swiper-container {
+                height: 1.33rem;
+                .swiper-slide {
+                    a {
+                        display: block;
+                        img {
+                            display: block;
+                            width: 0.96rem;
+                            height: 0.96rem;
+                        }
+                        p {
+                            display: block;
+                            width: 100%;
+                            color: #333;
+                            text-align: left;
+                            font-size: 0.1rem;
+                            line-height: 0.12rem;
+                            padding-top: 0.02rem;
+                        }
+                    }
+                }
+            }
+        }
+        .program {
+            @extend .gedan;
+        }
+        .mmhost {
+            @extend .gedan;
+        }
+    }
+}
+
+.footerarea {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    left: 0;
+    bottom: -40px;
+    background: #e8e8e8;
+    z-index: 200;
+    .footer {
+        .logo2 {
+            width: 0.8rem;
+            height: 0.3rem;
+            margin: 0.06rem 0 0 0.1rem;
+            background: url(../imgs/logo2.png) no-repeat;
+            background-size: 100%;
+        }
+        .download2 {
+            width: 0.68rem;
+            height: 0.26rem;
+            margin: 0.06rem 0.1rem 0 0;
+            border-radius: 0.3rem;
+            text-align: center;
+            color: #fff;
+            font-size: 0.12rem;
+            line-height: 0.26rem;
+            background: #1da0ef;
+        }
+    }
+}
+
+.chartbang {
+    margin-top: 0.1rem;
+    margin-right: 0.1rem;
+    overflow: hidden;
+    .chart_li {
+        margin-bottom: 0.1rem;
+        padding-left: 0.1rem;
+        padding-bottom: 0.05rem;
+        background: #fff;
+        .chart_pic {
+            float: left;
+            width: 1.06rem;
+            height: 1.06rem;
+        }
+        .chart_con {
+            float: left;
+            width: 1.58rem;
+            margin-left: 0.1rem;
+            h3 {
+                margin: 0.14rem 0 0.09rem 0;
+                font-size: 0.15rem;
+                color: #333;
+            }
+            p {
+                width: 100%;
+                font-size: 0.14rem;
+                margin-bottom: 0.03rem;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                .chart_num {
+                    margin-right: 0.1rem;
+                    color: #999;
+                }
+                .chart_artname {
+                    color: #999;
+                }
+            }
+        }
+        .chart_toright {
+            float: right;
+            width: 0.15rem;
+            height: 1.06rem;
+            background: url(../imgs/arrow_r.png) no-repeat center center;
+            background-size: 40%;
+            margin-right: 0.1rem;
+        }
+    }
+}
+
+.classify {
+    margin: 0.1rem;
+    overflow: hidden;
+    .classifybang {
+        margin-bottom: 0.1rem;
+        background: #fff;
+        li {
+            float: left;
+            width: 25%;
+            border-right: 0.01rem solid #f2f2f2;
+            border-bottom: 0.01rem solid #f2f2f2;
+            box-sizing: border-box;
+            a {
+                display: block;
+                width: 100%;
+                height: 0.35rem;
+                text-align: center;
+                line-height: 0.35rem;
+                font-size: 0.14rem;
+                color: #666;
+                overflow: hidden;
+            }
+        }
+        li:first-child {
+            height: 0.71rem;
+            a {
+                height: 0.71rem;
+            }
+        }
+    }
+}
+
+.artistbang {
+    width: 100%;
+    margin-bottom: 40px;
+    overflow: hidden;
+    .artist_banglist {
+        margin-top: 0.1rem solid #f2f2f2;
+        li {
+            border-bottom: 1px solid #e5e5e5;
+            color: #333;
+            padding-left: 0.1rem;
+            background: #fff;
+            .artist_fenlei {
+                height: 0.45rem;
+                line-height: 0.45rem;
+                font-size: 0.14rem;
+            }
+        }
+        .boldbottom {
+            margin-bottom: 0.1rem;
+            padding-left: 0.1rem;
+            margin-left: 0;
+        }
+        .artist_toright {
+            width: 0.2rem;
+            height: 0.45rem;
+            background: url(../imgs/arrow_r.png) no-repeat center center;
+            background-size: 40%;
+            margin-right: 0.1rem;
+        }
+    }
+}
+
+.mvbang_1 {
+    overflow: hidden;
+    background: #fff;
+    .mvbang {
+        margin-top: 0.05rem;
+        li {
+            font-size: 0.14rem;
+            color: #333;
+            display: flex;
+            .mvbang_pic {
+               
+               width: 0.51rem;
+                height: 0.51rem;
+                border-bottom: 1px solid transparent;
+                padding: 0.05rem 0.1rem;
+            }
+            .mvbang_txt {
+               flex: 1;
+               display: flex;
+                min-width: 2.4rem;
+                height: 0.6rem;
+                border-bottom: 1px solid #e5e5e5;               
+                line-height: 0.6rem;
+                justify-content: space-between;
+                .mv_toright {
+                    margin-right: 0.1rem;
+                    width: 0.2rem;
+                    height: 0.6rem;
+                    background: url(../imgs/arrow_r.png) no-repeat center center;
+                    background-size: 40%;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+/*# sourceMappingURL=index.css.map */
